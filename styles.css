@@ -172,6 +172,9 @@ hr {
 	justify-content: center;
 	position: relative;
 }
+.category-card-img img {
+	max-width: 100% !important;
+}
 .category-card-img a {
 	position: absolute;
 	top: 0;
