@@ -52,64 +52,48 @@
 			</div>
 		</div>
 		<div class="container">
-			<div class="store-items-container">
-				<div class="cart-card-container">
-					<div class="clear-cart-container">
-						<div class="clear-cart-wrapper">
-							<a href="#"
-								><span>Clear cart</span> <i class="fas fa-trash-alt"></i
-							></a>
+			<div class="checkout-container">
+				<div class="billing-details-container">
+					<h3>Billing details</h3>
+					<div class="form">
+						<input type="text" placeholder=" Your Full Name" />
+						<input type="text" placeholder="Nationality" />
+						<div class="duo-input">
+							<input type="number" placeholder="Phone Number" />
+							<input type="email" placeholder="Email Address" />
 						</div>
-					</div>
-					<div class="cart-card">
-						<div class="cart-card-img">
-							<img src="../assets/product.jpg" alt="Product image" />
-						</div>
-						<div class="card-cart-details">
-							<h3 class="name">Product name</h3>
-							<p>Price: <span class="price">₦500</span></p>
-							<p class="qty">Quantity:</p>
-							<div class="product-qty-to-cart">
-								<button>-</button>
-								<span>1</span>
-								<button>+</button>
-							</div>
-						</div>
-					</div>
-					<div class="cart-card">
-						<div class="cart-card-img">
-							<img src="../assets/product.jpg" alt="Product image" />
-						</div>
-						<div class="card-cart-details">
-							<h3 class="name">Product name</h3>
-							<p>Price: <span class="price">₦500</span></p>
-							<p class="qty">Quantity:</p>
-							<div class="product-qty-to-cart">
-								<button>-</button>
-								<span>1</span>
-								<button>+</button>
-							</div>
-						</div>
-					</div>
-					<div class="total-checkout-container">
-						<div class="total">
-							<span>Total cost: </span>
-							<h3>₦1000</h3>
-						</div>
-						<div class="checkout-link">
-							<a href="/checkout.html">
-								Continue to checkout <i class="fas fa-arrow-right"></i
-							></a>
-						</div>
-					</div>
-					<div class="back-btn mobile-only">
-						<span
-							><a href="#"><i class="fas fa-arrow-left"></i>Go back </a></span
-						>
+
+						<textarea
+							type="text"
+							rows="5"
+							placeholder="Delivery Address"
+						></textarea>
 					</div>
 				</div>
+				<div class="payment-mode-container">
+					<h3>Payment Mode</h3>
+					<div class="payment-mode-content">
+						<h4>Pay Now</h4>
+						<p>Momo, USSD, Bank Cards</p>
+					</div>
+				</div>
+				<div class="total-checkout-container">
+					<div class="total">
+						<span>Total cost: </span>
+						<h3>₦1000</h3>
+					</div>
+					<div class="checkout-link">
+						<a href="/order.html">
+							Continue <i class="fas fa-arrow-right"></i
+						></a>
+					</div>
+				</div>
+				<div class="back-btn mobile-only">
+					<span
+						><a href="#"><i class="fas fa-arrow-left"></i>Go back </a></span
+					>
+				</div>
 			</div>
-
 			<div class="bottom-nav mobile-only">
 				<div class="bottom-nav-icon">
 					<a href="/shop.html">
@@ -124,7 +108,7 @@
 					</a>
 				</div>
 				<div class="bottom-nav-icon active">
-					<a href="/cart.html">
+					<a href="/store-items/all-categories.html">
 						<i class="fas fa-shopping-cart"></i>
 						<p>Cart</p>
 					</a>
