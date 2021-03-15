@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito:wght@400;600;700&display=swap');
 body {
 	margin: 0;
 	padding: 0;
@@ -561,6 +562,9 @@ a {
 	display: none;
 }
 @media screen and (max-width: 768px) {
+	body {
+		font-family: 'Nunito', sans-serif
+	}
 	.mobile-only {
 		display: revert;
 	}
@@ -765,7 +769,7 @@ a {
 		font-size: 16px;
 	}
 	.store-items-container {
-		margin: 70px 7px;
+		margin: 70px 0;
 	}
 	.search-bar-wrapper {
 		width: 70%;
@@ -872,5 +876,8 @@ a {
 	}
 	.form .duo-input input {
 		width: 100%;
+	}
+	.discount-price .price {
+		font-size: 16px;
 	}
 }
