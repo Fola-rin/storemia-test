@@ -867,4 +867,10 @@ a {
 		padding: 3px;
 		font-size: 14px;
 	}
+	.form .duo-input {
+		flex-direction: column;
+	}
+	.form .duo-input input {
+		width: 100%;
+	}
 }
