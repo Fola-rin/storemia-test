@@ -13,125 +13,225 @@
 		></script>
 	</head>
 	<body>
-		<div class="container">
-			<div class="nav-header">
-				<div class="nav-header-logo-container">
-					<div class="nav-header-logo-wrapper">
-						<img
-							class="logo"
-							src="../assets/Folarin's-palace.jpg"
-							alt="shop logo"
-						/>
-					</div>
-					<h3>Folarin's Palace</h3>
+		<div class="nav-header">
+			<div class="nav-header-logo-container">
+				<div class="nav-header-logo-wrapper">
+					<img
+						class="logo"
+						src="../assets/Folarin's-palace.jpg"
+						alt="shop logo"
+					/>
 				</div>
+				<h3>Folarin's Palace</h3>
+			</div>
 
-				<div class="nav-links-container desktop-only">
-					<div class="nav-link">
-						<a href="/shop.html">Home</a>
-					</div>
-					<div class="nav-link">
-						<a href="./store-items/all-categories.html">Store</a>
-					</div>
-					<div class="nav-link">
-						<a href="/contact.html">Contact</a>
-					</div>
+			<div class="nav-links-container desktop-only">
+				<div class="nav-link">
+					<a href="/shop.html">Home</a>
 				</div>
-				<div class="nav-icons-wrapper desktop-only">
-					<div class="nav-icon">
-						<a href="/cart.html">
-							<i class="fas fa-shopping-cart"></i>
-						</a>
-						<span class="inventory-count">3</span>
-					</div>
-					<div class="nav-icon">
-						<input type="text" placeholder="Search for products" />
-						<a class="search-icon-absolute">
-							<i class="fas fa-search"></i>
-						</a>
-					</div>
+				<div class="nav-link">
+					<a href="./all-categories.html">Store</a>
+				</div>
+				<div class="nav-link">
+					<a href="/contact.html">Contact</a>
 				</div>
 			</div>
+			<div class="nav-icons-wrapper desktop-only">
+				<div class="nav-icon">
+					<a href="/cart.html">
+						<i class="fas fa-shopping-cart"></i>
+					</a>
+					<span class="inventory-count">3</span>
+				</div>
+				<div class="nav-icon">
+					<input type="text" placeholder="Search for products" />
+					<a class="search-icon-absolute">
+						<i class="fas fa-search"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div class="container">
 			<div class="store-items-container">
-				<div class="search-bar-container">
-					<div class="search-bar-wrapper">
-						<input type="text" placeholder="Search for products" />
-						<a class="search-icon-absolute">
-							<i class="fas fa-search"></i>
-						</a>
+				<div class="categories-nav desktop-only">
+					<div class="categories-nav-content">
+						<h3>Categories</h3>
+						<div class="nav-category">
+							<a href="/store-items/all-categories.html"></a>
+							<div class="nav-category-img-wrapper">
+								<div class="nav-category-img">
+									<img
+										src="https://eliansplace.storemia.com/UI/images/onlineshop.jpg"
+										alt="Category pic"
+									/>
+								</div>
+							</div>
+							<h4>All Items</h4>
+						</div>
+						<div class="nav-category">
+							<a href="/store-items/category1.html"></a>
+							<div class="nav-category-img-wrapper">
+								<div class="nav-category-img">
+									<img src="/assets/product.jpg" alt="Category pic" />
+								</div>
+							</div>
+							<h4>Item Type 1</h4>
+						</div>
+						<div class="nav-category">
+							<a href="/store-items/category2.html"></a>
+							<div class="nav-category-img-wrapper">
+								<div class="nav-category-img">
+									<img src="/assets/product_1.jpg" alt="Category pic" />
+								</div>
+							</div>
+							<h4>Item Type 2</h4>
+						</div>
+						<div class="nav-category active">
+							<a href="/store-items/category3.html"></a>
+							<div class="nav-category-img-wrapper">
+								<div class="nav-category-img">
+									<img
+										src="https://www.mcgill.ca/oss/files/oss/styles/hd/public/perfume.jpg?itok=5drIAANl&timestamp=1499713750"
+										alt="Category pic"
+									/>
+								</div>
+							</div>
+							<h4>Item Type 3</h4>
+						</div>
 					</div>
 				</div>
-
-				<div class="store-items-nav">
-					<a href="./all-categories.html">All items</a>
-					<a href="./category1.html">Item type 1</a>
-					<a href="./category2.html">Item type 2</a>
-					<a class="active" href="./category3.html">Item type 3</a>
-				</div>
-				<div class="category-card-grid">
-					<div class="category-card">
-						<div class="category-card-img">
-							<a href="./store-item.html"></a>
-							<img src="../assets/product.jpg" alt="product image" />
+				<div class="store-items-wrapper">
+					<div class="search-bar-container">
+						<div class="search-bar-wrapper">
+							<input type="text" placeholder="Search for products" />
+							<a class="search-icon-absolute">
+								<i class="fas fa-search"></i>
+							</a>
 						</div>
-						<div class="category-card-details">
-							<p class="name">Product name</p>
-							<div class="discount-price">
-								<h3 class="price">₦500</h3>
+					</div>
+					<div class="mobile-categories-nav mobile-only">
+						<div class="dropdown">
+							<button class="dropbtn">
+								Categories
+								<i class="fa fa-caret-down"></i>
+							</button>
+							<div class="dropdown-content">
+								<!-- <h3>Categories</h3> -->
+								<div class="dropdown-category">
+									<a href="/store-items/all-categories.html"></a>
+									<div class="dropdown-category-img-wrapper">
+										<div class="dropdown-category-img">
+											<img
+												src="https://eliansplace.storemia.com/UI/images/onlineshop.jpg"
+												alt="Category pic"
+											/>
+										</div>
+									</div>
+									<h4>All Items</h4>
+								</div>
+								<div class="dropdown-category">
+									<a href="/store-items/category1.html"></a>
+									<div class="dropdown-category-img-wrapper">
+										<div class="dropdown-category-img">
+											<img src="/assets/product.jpg" alt="Category pic" />
+										</div>
+									</div>
+									<h4>Item Type 1</h4>
+								</div>
+								<div class="dropdown-category">
+									<a href="/store-items/category2.html"></a>
+									<div class="dropdown-category-img-wrapper">
+										<div class="dropdown-category-img">
+											<img src="/assets/product_1.jpg" alt="Category pic" />
+										</div>
+									</div>
+									<h4>Item Type 2</h4>
+								</div>
+								<div class="dropdown-category">
+									<a href="/store-items/category3.html"></a>
+									<div class="dropdown-category-img-wrapper">
+										<div class="dropdown-category-img">
+											<img src="/assets/product.jpg" alt="Category pic" />
+										</div>
+									</div>
+									<h4>Item Type 3</h4>
+								</div>
 							</div>
-							<div class="addtocart">
-								<a href="../cart.html">Add to cart</a>
+						</div>
+						<div class="category-title-container">
+							<div class="category-title">
+								<h4>Currently showing: Item Type 3</h4>
 							</div>
 						</div>
 					</div>
-					<div class="category-card">
-						<span class="discount-rate">-50%</span>
-						<div class="category-card-img">
-							<a href="./store-item.html"></a>
-							<img src="../assets/product.jpg" alt="product image" />
-						</div>
-						<div class="category-card-details">
-							<p class="name">Product name</p>
-							<div class="discount-price">
-								<h3 class="old-price">₦500</h3>
-								<h3 class="price">₦250</h3>
+					<div class="category-card-grid">
+						<div class="category-card">
+							<div class="category-card-img">
+								<a href="./store-item.html"></a>
+								<img src="../assets/product.jpg" alt="product image" />
 							</div>
+							<div class="category-card-details">
+								<p class="name">Product name</p>
+								<div class="discount-price">
+									<h3 class="price">₦500</h3>
+								</div>
+								<div class="addtocart">
+									<a href="../cart.html">Add to cart</a>
+								</div>
+							</div>
+						</div>
+						<div class="category-card">
+							<span class="discount-rate">-50%</span>
+							<div class="category-card-img">
+								<a href="./store-item.html"></a>
+								<img src="../assets/product.jpg" alt="product image" />
+							</div>
+							<div class="category-card-details">
+								<p class="name">Product name</p>
+								<div class="discount-price">
+									<h3 class="old-price">₦500</h3>
+									<h3 class="price">₦250</h3>
+								</div>
 
-							<div class="addtocart">
-								<a href="../cart.html">Add to cart</a>
+								<div class="addtocart">
+									<a href="../cart.html">Add to cart</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="category-card">
-						<div class="category-card-img">
-							<a href="./store-item.html"></a>
-							<img src="../assets/product.jpg" alt="product image" />
-						</div>
-						<div class="category-card-details">
-							<p class="name">Product name</p>
-							<div class="discount-price">
-								<h3 class="price">₦550</h3>
+						<div class="category-card">
+							<div class="category-card-img">
+								<a href="./store-item.html"></a>
+								<img
+									src="https://www.mcgill.ca/oss/files/oss/styles/hd/public/perfume.jpg?itok=5drIAANl&timestamp=1499713750"
+									alt="product image"
+								/>
 							</div>
+							<div class="category-card-details">
+								<p class="name">Product name</p>
+								<div class="discount-price">
+									<h3 class="price">₦550</h3>
+								</div>
 
-							<div class="outofstock">
-								<a>Out of stock</a>
+								<div class="outofstock">
+									<a>Out of stock</a>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="category-card">
-						<div class="category-card-img">
-							<a href="./store-item.html"></a>
-							<img src="../assets/product.jpg" alt="product image" />
-						</div>
-						<div class="category-card-details">
-							<p class="name">Product name</p>
-							<div class="discount-price">
-								<h3 class="price">₦500</h3>
+						<div class="category-card">
+							<div class="category-card-img">
+								<a href="./store-item.html"></a>
+								<img src="../assets/product.jpg" alt="product image" />
 							</div>
-							<div class="product-qty-to-cart">
-								<button>+</button>
-								<span>1</span>
-								<button>-</button>
+							<div class="category-card-details">
+								<p class="name">Product name</p>
+								<div class="discount-price">
+									<h3 class="price">₦500</h3>
+								</div>
+								<div class="product-qty-to-cart">
+									<button>+</button>
+									<span>1</span>
+									<button>-</button>
+								</div>
 							</div>
 						</div>
 					</div>
