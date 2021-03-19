@@ -475,6 +475,7 @@ a {
 	cursor: pointer;
 	/* padding: 5px 10px; */
 	display: inline-block;
+	display: -webkit-inline-box;
 	height: 30px;
 	width: 30px !important;
 	max-width: 30px !important;
