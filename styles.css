@@ -473,6 +473,7 @@ a {
 	border: 1px solid rgb(187, 187, 187);
 	background-color: transparent;
 	cursor: pointer;
+	padding: 2px;
 	display: inline-block;
 	display: -webkit-inline-box;
 	height: 30px;
